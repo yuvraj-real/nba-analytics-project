@@ -12,7 +12,7 @@ def run_pipeline():
     df['FG%'] = df['FG%'].fillna(0.0)
     
     #calculates the eFG% (effective field goal percentage)
-    df['eFG%'] = (df['FG'] + (0.5 * df['3P'])) / df['FGA']
+    df['eFG%'] = (((df['FG'] + (0.5 * df['3P'])) / df['FGA']) * 100).round(3)
     df['eFG%'] = df['eFG%'].fillna(0.0)
     
     print("Adding to Database...")
