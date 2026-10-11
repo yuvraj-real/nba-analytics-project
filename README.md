@@ -26,8 +26,8 @@ The goal of this project was to practice and demonstrate proficiency in Python, 
 
 - For example, here is the query to find the:
 
-Best Individual Performances by Points in Losses
-SELECT 
+- Best Individual Performances by Points in Losses
+ - SELECT 
     Player, 
     Tm, 
     Date, 
