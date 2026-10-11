@@ -24,10 +24,9 @@ The goal of this project was to practice and demonstrate proficiency in Python, 
 ## SQL Analytics
 - Besides the dashboard, I created various SQL queries to look at more insights from the database.
 
-- For example, here is the query to find the:
+- For example, here is the query to find the Best Individual Performances by Points in Losses:
 
-- Best Individual Performances by Points in Losses
- - SELECT 
+- SELECT 
     Player, 
     Tm, 
     Date, 
